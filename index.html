@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Katalog Penjualan Jam Tangan - 048361653_Berlina Prastika</title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+    body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        color: #fff;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header {
+        padding: 2rem 1rem;
+        text-align: center;
+        background-color: rgba(0,0,0,0.2);
+        width: 100%;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    header h1 {
+        margin: 0;
+        font-weight: 600;
+        font-size: 2.5rem;
+        letter-spacing: 2px;
+    }
+
+    header p {
+        margin-top: 0.5rem;
+        font-size: 1.1rem;
+        font-weight: 400;
+        opacity: 0.75;
+    }
+
+    main {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 1rem;
+        width: 100%;
+        max-width: 900px;
+    }
+
+    .product-card {
+        background-color: rgba(255, 255, 255, 0.15);
+        border-radius: 20px;
+        padding: 2rem;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+        max-width: 400px;
+        text-align: center;
+        transition: transform 0.3s ease;
+    }
+
+    .product-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+    }
+
+    .product-image {
+        width: 100%;
+        max-width: 300px;
+        border-radius: 15px;
+        box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+    }
+
+    .product-name {
+        margin-top: 1.5rem;
+        font-size: 1.8rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+
+    .product-description {
+        margin: 1rem 0 1.5rem 0;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.4;
+        color: #e0e0e0;
+    }
+
+    .product-price {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #ffdd57;
+        margin-bottom: 1.5rem;
+    }
+
+    .buy-button {
+        padding: 0.75rem 2rem;
+        background-color: #ffdd57;
+        color: #333;
+        text-transform: uppercase;
+        font-weight: 700;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        box-shadow: 0 6px 15px rgba(255, 221, 87, 0.6);
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        letter-spacing: 1px;
+    }
+
+    .buy-button:hover {
+        background-color: #f7c014;
+        box-shadow: 0 8px 25px rgba(247, 192, 20, 0.8);
+    }
+
+    footer {
+        padding: 1rem;
+        color: #ddd;
+        font-size: 0.9rem;
+        text-align: center;
+        width: 100%;
+        background-color: rgba(0,0,0,0.15);
+        box-shadow: 0 -4px 8px rgba(0,0,0,0.2);
+    }
+
+    @media (max-width: 480px) {
+        .product-card {
+            padding: 1.5rem;
+        }
+
+        .product-name {
+            font-size: 1.5rem;
+        }
+    }
+</style>
+</head>
+<body>
+    <header>
+        <h1>Katalog Penjualan Jam Tangan</h1>
+        <p>www.048361653_BerlinaPrastika.com</p>
+    </header>
+    <main>
+        <article class="product-card" role="product">
+            <img class="product-image" src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=400&q=80" alt="Jam Tangan Elegan" />
+            <h2 class="product-name">Jam Tangan Elegan</h2>
+            <p class="product-description">
+                Jam tangan analog dengan desain elegan dan tahan air. Cocok untuk aktivitas sehari-hari maupun acara resmi.
+            </p>
+            <p class="product-price">Rp 750.000,-</p>
+            <button class="buy-button" onclick="alert('Terima kasih telah membeli Jam Tangan Elegan!')">Beli Sekarang</button>
+        </article>
+    </main>
+    <footer>
+        &copy; 2024 Berlina Prastika - 048361653
+    </footer>
+<script>
+    // Could add any interactivity here in future, currently only buy alert.
+</script>
+</body>
+</html>
+
